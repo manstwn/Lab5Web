@@ -18,23 +18,6 @@ class Form
         $this->submit = $submit;
     }
 
-    // Original Version
-    // public function displayForm()
-    // {
-    //     echo '<div class="card">';
-    //     echo "<form action='" . $this->action . "' method='POST'>";
-    //     echo '<div class="input">';
-    //     for ($j = 0; $j < count($this->fields); $j++) {
-    //         echo "<label>" . $this->fields[$j]['label'] . "</label>";
-    //         echo "<input type='text' value='" . $this->fields[$j]["value"] . "' name='" . $this->fields[$j]['name'] . "'>";
-    //     }
-    //     echo "</div>";
-    //     echo "<button type='submit' name='" . $this->submit . "'>Kirimm</button>";
-    //     echo "</form>";
-    //     echo "</div>";
-    // }
-
-    // GPT Version
     public function displayForm()
     {
         echo '<div class="card">';
