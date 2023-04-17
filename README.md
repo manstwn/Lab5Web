@@ -8,7 +8,7 @@ Matkul : Pemograman Mobile 2
 ![Latihan API 1](ss/ss1.png)
 
 <p>
-Contoh membuat class mobil dan membuat fungsi2 sepert ( __construct() ) gantiWarna() dan TampilWarna(), Serta diimplementasikan membuat objek dan objek tersebut langsung di panggil.
+Pada baris kode 'mobil.php' yaitu membuat contoh class mobil dan membuat fungsi2 sepert ( __construct() ) gantiWarna() dan TampilWarna(), Serta diimplementasikan membuat objek dan objek tersebut langsung di panggil.
 </p>
 
 ## Tugas
