@@ -28,19 +28,19 @@ Berikut adalah program yang sudah saya buat.
 Menggunakan konsep 'Modularlisasi' dengan memecah bagian HTML menjadi 3 bagian yaitu header, home, dan footer. dan 'Routing' agar domain menjadi lebih singkat dari (/home.php) menjadi (/home) saja. Data yang berada di Tabel diambil menggunakan fungis gets() yang sudah ada pada Class Database
 </p>
 
-#### Tambah Data
+### Tambah Data
 ![Latihan API 2](ss/ss4.png)
 <p>
 Apabila di klik mengarah baris kode pada 'fungsi/tambah.php' dengan memanggil Class Database dan Form, menampilkan fungsi 'displayForm()' sebagai tampilan formulir untuk diisi dengan kolom kolom yang sesuai seperti yang ada pada database. Selanjut nya setelah form di isi, dan menekan tombol 'KIRIM' akan menjalankan baris kode pada clas 'Form' dengan fungsi 'addFields' mengumpulkan data pada array 'create' dan memasukannya ke database dengan fungsi 'insert()' yang ada pada class 'Database' kemudian kembali kehalaman /home
 </p>
 
-#### Tambah Data
+### Ubah Data
 ![Latihan API 2](ss/ss5.png)
 <p>
 Apabila di klik mengarah baris kode pada 'fungsi/ubah.php' cara mengirim data ke database sama seperti metode tambah, namun tabel yang kosong diisi sesuai id yang ada pada table/database yang dipilih dengan metode '$_GET['id']' dan menampilkan kedalam Form selanjutnya kembali ke halaman /home
 </p>
 
-#### Hapus Data
+### Hapus Data
 <p>
 Apabila di klik mengarah baris kode pada 'fungsi/hapus.php' menggunkan metode $_GET untuk memilih data dan menghapus data dengan menggunakan fungsi delete() yang ada pada Class Database. dan kembali ke halaman /home
   
